@@ -1,13 +1,20 @@
 {
-    "parent": "minecraft:block/orientable",
-    "textures": {
-     "front": "minecraft:block/carved_pumpkin",
-     "side": "minecraft:block/pumpkin_side",
-     "top": "minecraft:block/pumpkin_top"
-    },
-    
-    "overrides": [
-        {"predicate": {"custom_model_data":1}, "model": "template:item/top_hat"}
-    ]
-   }
-   
+    "model": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:carved_pumpkin"
+      },
+      "entries": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "hats:item/top_hat"
+          },
+          "threshold": 1
+        }
+      ]
+    }
+  }
