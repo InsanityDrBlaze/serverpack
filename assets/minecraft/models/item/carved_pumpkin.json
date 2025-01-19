@@ -1,11 +1,12 @@
 {
-    "parent": "minecraft:block/carved_pumpkin",
+    "parent": "item/handheld",
     "textures": {
      "layer0": "item/carved_pumpkin"
     },
     
     "overrides": [
-     {"predicate": {"custom_model_data":1}, "model": "block/custom/model.json"}
+        {"predicate": {"custom_model_data":0}, "model": "block/carved_pumpkin"},
+        {"predicate": {"custom_model_data":1}, "model": "block/custom/model.json"}
     ]
    }
    
