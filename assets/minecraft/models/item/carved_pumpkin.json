@@ -7,8 +7,7 @@
     },
     
     "overrides": [
-        {"predicate": {"custom_model_data":0}, "model": "block/carved_pumpkin"},
-        {"predicate": {"custom_model_data":1}, "model": "block/custom/top_hat"}
+        {"predicate": {"custom_model_data":1}, "model": "template:item/top_hat"}
     ]
    }
    
