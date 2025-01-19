@@ -1,7 +1,9 @@
 {
-    "parent": "item/handheld",
+    "parent": "minecraft:block/orientable",
     "textures": {
-     "layer0": "item/carved_pumpkin"
+     "front": "minecraft:block/carved_pumpkin",
+     "side": "minecraft:block/pumpkin_side",
+     "top": "minecraft:block/pumpkin_top"
     },
     
     "overrides": [
