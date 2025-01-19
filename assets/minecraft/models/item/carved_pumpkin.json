@@ -11,7 +11,7 @@
         {
           "model": {
             "type": "minecraft:model",
-            "model": "hats:item/top_hat"
+            "model": "item/top_hat"
           },
           "threshold": 1
         }
