@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 13,
-    "description": "An assortment of extra trim materials!"
+    "pack_format": 42,
+    "description": "The go-to 32x resource pack.\n§8November 2024 Pre-release",
+    "supported_formats": {
+      "min_inclusive": 35,
+      "max_inclusive": 42
+    }
   }
 }
