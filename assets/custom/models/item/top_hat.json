@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "assets\\custom\\textures\\block/texture",
-		"particle": "assets\\custom\\textures\\block/texture"
+		"0": "custom:block/texture",
+		"particle": "custom:block/texture"
 	},
 	"elements": [
 		{
