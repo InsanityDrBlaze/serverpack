@@ -11,14 +11,14 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "custom:block/top_hat"
+          "model": "custom:item/top_hat"
         },
         "threshold": 1
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "custom:block/top_hat"
+          "model": "custom:item/top_hat"
         },
         "threshold": 2
       }
