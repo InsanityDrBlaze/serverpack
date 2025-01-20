@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "hats:item/top_hat"
+    "model": "custom:item/top_hat"
   }
 }
