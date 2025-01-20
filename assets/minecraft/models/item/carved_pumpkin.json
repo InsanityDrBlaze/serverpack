@@ -20,7 +20,7 @@
           "type": "minecraft:model",
           "model": "custom:item/top_hat"
         },
-        "threshold": 2
+        "threshold": 3
       }
     ]
   }
