@@ -2,6 +2,9 @@
   "pack": {
     "pack_format": 46,
     "description": "BRUH",
+   "supported_formats": {
+      "min_inclusive": 35,
+      "max_inclusive": 46
     }
   }
 }
